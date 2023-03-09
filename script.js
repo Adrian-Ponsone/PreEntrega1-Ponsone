@@ -1,6 +1,6 @@
 let opcion = 0, saldo = 0
-alert("BIENVENIDO AL CAJERO AUTOMÁTICO")
 
+alert("BIENVENIDO AL CAJERO AUTOMÁTICO")
 do{
     opcion = Number(prompt("ELIGA LA OPCION QUE DESEA EJECUTAR\n\n1 - Consultar Saldo\n2 - Realizar un deposito\n3 - Extraer efectivo\n0 - Para salir"))
     let deposito = 0, extraccion = 0
@@ -30,5 +30,4 @@ do{
             alert("INGRESE UNA OPCION VALIDA")
     }
 }while(opcion != 0)
-
 alert("GRACIAS, QUE TENGA UN BUEN DIA!")
